@@ -1,1 +1,89 @@
 /*Schrijf hier jouw CSS*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Opdracht 1*/
+
+.opdracht-1 >ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Klaar*/
+
+/*Opdracht 2*/
+
+.opdracht-2 >ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.opdracht-2 li {
+    flex-basis: 33%;
+}
+
+/*Klaar*/
+
+/*Opdracht 3*/
+
+.opdracht-3 {
+    display: flex;
+}
+
+.opdracht-3 > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 195px;
+}
+
+.opdracht-3 > ul > li:nth-child(1) {
+    align-self: flex-start;
+}
+
+.opdracht-3 > ul > li:nth-child(2) {
+    align-self: center;
+}
+
+.opdracht-3 > ul > li:nth-child(3) {
+    align-self: flex-end;
+}
+
+/*Klaar*/
+
+/*Opdracht 4*/
+
+.opdracht-4  > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+/*Klaar*/
+
+/*Opdracht 5*/
+
+.opdracht-5 div {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.opdracht-5 ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.opdracht-5 ul:nth-child(2) {
+    align-items: center;
+}
+.opdracht-5 ul:last-child {
+    align-items: end;
+}
